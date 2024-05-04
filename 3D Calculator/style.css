@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ecf0f3;
+    min-height: 100%;
+}
+
+.calculator{
+    height: 100vh;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    padding: 26px;
+    border-radius: 1em;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, .16);
+}
+
+input{
+    width: 330px;
+    padding: 25px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 45px;
+    border-radius: 25px;
+    text-align: right;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    color: rgb(70, 70, 70);
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    color: rgb(70, 70, 70);
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color: #03e9f4;
+    color: black;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+}
+
+.equal{
+    width: 144px;
+    font-weight: 700;
+    border-radius: 1em;
+    background-color: #ecf0f3;
+    color: black;
+}
+
+.equal:hover{
+    background-color: #f84c35;
+    color: white;
+    box-shadow: 0 0 5px #f84c35,
+                0 0 25px #f84c35,
+                0 0 50px #f84c35,
+                0 0 100px #f84c35;
+}
+
+.clear{
+    background-color: #ecf0f3;
+    font-weight: 400;
+    color: black;
+    border: none;
+}
+
+.clear:hover{
+    background-color: #f84c35;
+    color: white;
+    box-shadow: 0 0 5px #f84c35,
+                0 0 25px #f84c35,
+                0 0 50px #f84c35,
+                0 0 100px #f84c35;
+}
+
+.main{
+    background-color: #ecf0f3;
+    color: black;
+}
+
+.main:hover{
+    background-color: #3ffa36;
+    color: white;
+    box-shadow: 0 0 5px #3ffa36,
+                0 0 25px #3ffa36,
+                0 0 50px #3ffa36,
+                0 0 100px #3ffa36;
+}
