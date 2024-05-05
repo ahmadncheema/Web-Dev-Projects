@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'bitsumishi';
+    src: url('/font/BITSUMIS.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: bitsumishi;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background.svg);
+    overflow: hidden;
+}
+
+.mitsubishilogo{
+    width: 80px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: rgb(73, 73, 73);
+    font-weight: 700;
+    text-decoration: none;
+    font-family: bitsumishi;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(73, 73, 73);;
+    border-bottom: 3px solid rgb(73, 73, 73);;
+}
+
+.social-media a i{
+    font-size: 24px;
+    transition: 0.3s ease;
+    color: black;
+}
+
+.social-media a i:hover{
+    transform: scale(1.3);
+    color: rgb(73, 73, 73);;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 8% 0;
+}
+
+.home-content{
+    max-width: 650px;
+}
+
+.home-content h1{
+    font-size: 60px;
+    line-height: 1.6;
+    font-family: bitsumishi;
+}
+
+.home-content h2{
+    font-size: 40px;
+    color: rgb(73, 73, 73);;
+    font-family: bitsumishi;
+}
+
+.home-content h3{
+    font-size: 30px;
+    color: rgb(73, 73, 73);;
+    font-family: bitsumishi;
+}
+
+.home-content h4{
+    font-size: 20px;
+    color: rgb(73, 73, 73);;
+    font-family: bitsumishi;
+}
+
+.home-content h5{
+    font-size: 16px;
+    color: rgb(73, 73, 73);;
+    font-family: bitsumishi;
+}
+
+.home-content p{
+    font-size: 16px;
+    font-family: bitsumishi;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(73, 73, 73);;
+    border: 2px solid rgb(73, 73, 73);;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.home-img{
+    position: relative;
+    right: -35%;
+    width: 800px;
+    height: 800px;
+}
+
+.home-img .circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 50px solid rgb(73, 73, 73);;
+    border-radius: 50%;
+}
+
+.home-img .circle img{
+    position: absolute;
+    max-width: 1000px;
+    transform: rotate(-2deg);
+    top: -150px;
+    left: -400px;
+}
+
+.engine-img{
+    position: relative;
+    right: -35%;
+    width: 600px;
+    height: 500px;
+}
+
+.engine-img .circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.engine-img .circle img{
+    position: absolute;
+    max-width: 1000px;
+    transform: rotate(-2deg);
+    top: -150px;
+    left: -400px;
+}
+
+.home-img .circle-2{
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(73, 73, 73);;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding-top: 50%;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
