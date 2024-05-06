@@ -1,0 +1,33 @@
+* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f9f9f9;
+    background-color: #221e6f;
+}
+
+title {
+    display: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 320px;
+    border-radius: 16px;
+    background: url(bg.jpg);
+    background-size: 110%;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.card h1 {
+    font-size: 38px;
+    background: transparent;
+}
